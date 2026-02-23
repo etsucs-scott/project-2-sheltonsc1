@@ -24,5 +24,6 @@ namespace WarGame.Core
             King = 13,
             Ace = 14
         }
+
     }
 }

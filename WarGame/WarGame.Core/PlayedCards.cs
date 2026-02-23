@@ -8,6 +8,7 @@ namespace WarGame.Core
 {
     public class PlayedCards
     {
-        public Dictionary<string, List<Card>> Cards { get; set; }
+        public Dictionary<string, List<Card>> Cards { get; set; } = new Dictionary<string, List<Card>>();
+
     }
 }

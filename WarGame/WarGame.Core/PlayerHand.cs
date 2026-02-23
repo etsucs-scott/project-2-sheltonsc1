@@ -9,6 +9,6 @@ namespace WarGame.Core
     public class PlayerHand
     {
         public Dictionary<string, Hand> Hands { get; set; }
-
+        
     }
 }

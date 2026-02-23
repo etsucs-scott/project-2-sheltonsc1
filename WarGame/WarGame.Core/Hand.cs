@@ -10,5 +10,6 @@ namespace WarGame.Core
     {
         public Queue<Card> Cards { get; set; }
 
+
     }
 }

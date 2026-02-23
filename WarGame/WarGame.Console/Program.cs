@@ -7,6 +7,7 @@ namespace WarGame.Console
         static void Main(string[] args)
         {
             
+
         }
     }
 }
