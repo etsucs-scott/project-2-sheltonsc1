@@ -58,7 +58,7 @@ namespace WarGame.Core
         public int Count => hands.Count;
 
         /// <summary>
-        /// Gets a dictionary containing the number of cards held by each player.
+        /// creates a dictionary containing the number of cards held by each player
         /// </summary>
         public Dictionary<string, int> CardCounts => hands.ToDictionary(p => p.Key, p => p.Value.Cards.Count);
     }
