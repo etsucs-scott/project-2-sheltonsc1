@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using WarGame.Core;
 
+
 Console.Write("Enter the number of players (2-4): ");
 int count = int.Parse(Console.ReadLine());
 
@@ -12,7 +13,7 @@ for (int i = 1; i <= count; i++)
     players.Add(Console.ReadLine());
 }
 
-var game = new WarGame(players);
+var game = new WarGamed(players);
 string result = game.PlayGame();
 
 Console.WriteLine("\n::::::::: GAME OVER :::::::::");

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WarGame.Core
 {
-    public class WarGame
+    public class WarGamed
     {
         public PlayerHands PlayerHands { get; } = new();
 
@@ -22,7 +22,7 @@ namespace WarGame.Core
         /// and dealing the cards from a deck to the players in a round-robin fashion until the deck is empty
         /// </summary>
         /// <param name="players"></param>
-        public WarGame(IEnumerable<string> players)
+        public WarGamed(IEnumerable<string> players)
         {
             foreach (var p in players)
             {
